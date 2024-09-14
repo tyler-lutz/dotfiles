@@ -1,3 +1,5 @@
+vim.g.mapleader = " "
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 
@@ -9,3 +11,5 @@ vim.opt.expandtab = true
 vim.opt.wrap = false
 
 vim.opt.signcolumn = "yes"
+
+require("config.lazy")
